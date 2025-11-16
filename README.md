@@ -3,12 +3,18 @@ implementando redis em uma simulação de login
 
 Simule isso com um POST em um cliente de API (Insomnia, Bruno, Postman, etc) no endpoint
 
-Mas primeiramente inicie um containter com docker de redis em sua máquina e implemente a porta padrão do redis 6379
-
-# Requisitos minimos 
+# Requisitos minimos ⚙️ 
 Java 21
+
 Docker instalado
+
 Porta 6379 e 8080 disponíveis
+
+# Botando a mão na massa 💻
+
+Primeiramente inicie um containter com docker de redis em sua máquina e implemente a porta padrão do redis 6379
+
+Exemplo linux/WSL :
 
 ```
 sudo docker run -d --name redis-local -p 6379:6379 redis
